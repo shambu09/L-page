@@ -10,12 +10,16 @@ body {
 .center {
     display: flex;
     justify-content: center;
-    
+}
+
+.test {
+    display: inline-block;
+    justify-content: center;
+    background: green
+
 }
 
 h1 {
-    display: inline-block;
     background: blue;
     padding: 10px;
-    text-align: center;
 }
