@@ -8,6 +8,7 @@
 }
 
 body {
+    -webkit-print-color-adjust:exact;
     background-color: #f0f0f0;    
 }
 
