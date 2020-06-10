@@ -8,12 +8,15 @@
 }
 
 #dummy {
+    width: inherit;
+    height: inherit;
     background-color: #f0f0f0;
     -webkit-print-color-adjust:exact;    
 }
 
 #title {
     color: #4472C4;
+    background-color: #f0f0f0;
 }
 
 .flex-container {
