@@ -7,12 +7,12 @@
     -webkit-print-color-adjust:exact;
 }
 
-body {
-    background-color: #f0f0f0;    
+#dummy {
+    background-color: #f0f0f0;
+    -webkit-print-color-adjust:exact;    
 }
 
 #title {
-    padding-top: 2%;
     color: #4472C4;
 }
 
@@ -45,7 +45,7 @@ body {
 #cover_page_bottom {
     width: inherit;
     padding-bottom: 68%;
-    margin: 0 5% 3% 5%;
+    margin: 0 5% 1% 5%;
     background-color: #4472C4;
 }
 
@@ -57,8 +57,8 @@ body {
 }
 
 #link {
+    margin-top: 1%;
     padding-right: 3%;
-    padding-bottom: 2%
 }
 
 .font-link{
