@@ -17,6 +17,7 @@ body {
 }
 
 .flex-container {
+    height: inherit;
     display: flex;
     margin-left: 13%;
     margin-right : 13%; 
