@@ -16,7 +16,7 @@ h1 {
     font-size: 175%;
     text-align: center;
     margin: 2%;
-    margin-bottom: 3%;
+    margin-top: 3%;
 }
 
 h2 {
@@ -35,7 +35,7 @@ h2 {
 }
 
 .title {
-    padding: 0 6% 0 6%;
+    padding: 0 8% 0 8%;
     border-left: 2px solid #140500;
     border-bottom: 2px solid #140500;
     float: right;
