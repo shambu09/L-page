@@ -1,6 +1,6 @@
 * {
     margin: 0;
-    padding: 0; 
+    padding: 0;
     box-sizing: border-box;
     color: #140500;
     font-family: "Comic Sans MS", "Comic Sans", cursive;
@@ -19,29 +19,27 @@ h1 {
     margin-bottom: 3%;
 }
 
-h2{
+h2 {
     font-size: 125%;
-    
+
 }
 
 .container {
-    margin:0%;
+    display: table;
+    margin: 0%;
     padding: 0;
-    width : inherit; 
+    width: inherit;
     height: inherit;
     font-size: 0;
+    position: relative;
 }
 
-.container > div {
-    padding: 0 0 .5% .9%;
-    display: inline-block;
-    margin: 0.5%;
-    width: 32.33%;
-    font-size: 16px;
-    color: #140500;
-    border: 3px solid #140500;
-    background-color: #999999;
-    /*position: relative;*/
+.title {
+    padding: 0 6% 0 6%;
+    border-left: 2px solid #140500;
+    border-bottom: 2px solid #140500;
+    float: right;
+    background-color: red;
 }
 
 #chicken {
@@ -56,19 +54,47 @@ h2{
     background-color: #E5D198;
 }
 
-.title {
-    padding:0 8% 0 8%;
-    border-left: 2px solid #140500;
-    border-bottom: 2px solid #140500;
-    float: right;
-    background-color: red;
-}
-
 p {
+    margin: 0%;
+    display: block;
     padding: 2% 2% 0 0;
     clear: right;
 }
 
 #white {
     color: #ffffff;
+}
+
+.container>div {
+    height: inherit;
+    padding: 0 0 0.5% .9%;
+    display: inline-block;
+    margin: 2%;
+    height: initial;
+    font-size: 16px;
+    color: #140500;
+    border: 3px solid #140500;
+    background-color: #999999;
+}
+
+@media (min-width: 992px) {
+    .col-lg-4 {
+        width: 29.33%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-md-6 {
+        width: 46%;
+    }
+
+    .col-md-12 {
+        width: 96%;
+    }
+}
+
+@media (max-width: 767px) {
+    .col-sm-12 {
+        width: 96%;
+    }
 }
