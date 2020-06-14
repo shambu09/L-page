@@ -1,0 +1,54 @@
+* {
+    font-weight: #700;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #140500;
+    font-family: 'Lato', sans-serif;
+}
+
+.brand {
+    font-weight: bold;
+    width: 100%;
+    font-size: 2em;
+    background-color: #999999;
+    padding-bottom: 3%;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+}
+
+#our-menu {
+    font-weight: bold;
+    text-align: center;
+    font-size: 2em;
+    clear: both;
+    padding-top: 2%;
+    margin-bottom: 3%;
+}
+
+.chicken,
+.beef,
+.sushi {
+    position: relative;
+    box-shadow: 2px 2px #727272;
+    width: 100%;
+    background-color: #999999;
+    padding: 2%;
+    margin-bottom: 6%;
+}
+
+#main-tile span {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.3em;
+    margin-bottom: 2%;
+}
+
+#header {
+    padding: 0;
+}
