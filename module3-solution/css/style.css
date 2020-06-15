@@ -10,34 +10,36 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
-.brand {
+#brand {
+    vertical-align: middle;
     font-weight: bold;
-    width: 100%;
-    font-size: 2em;
-    background-color: #999999;
+    font-size: 2.6em;
     padding-bottom: 3%;
-    border-bottom: 2px solid black;
-    border-top: 2px solid black;
+    padding-top: 2.1%;
+    padding-left: 2%;
+    color: #140500;
+    padding-right: 1%;
 }
 
 #our-menu {
     font-weight: bold;
-    text-align: center;
-    font-size: 2em;
+    font-size: 2.2em;
     clear: both;
     padding-top: 2%;
-    margin-bottom: 3%;
+    margin-top: 1%;
+    margin-bottom: 4%;
 }
 
-.chicken,
-.beef,
-.sushi {
+#chicken,
+#beef,
+#sushi {
     position: relative;
     box-shadow: 2px 2px #727272;
     width: 100%;
     background-color: #999999;
     padding: 2%;
     margin-bottom: 6%;
+    border: 0;
 }
 
 #main-tile span {
@@ -46,9 +48,87 @@ body {
     text-align: center;
     font-weight: bold;
     font-size: 1.3em;
-    margin-bottom: 2%;
+    margin-bottom: 1%;
+    margin-top: 2%;
 }
 
-#header {
+#main-tile span>a {
+    color: #487D96;
+}
+
+#main-tile span>a:hover,
+#main-tile span>a:focus {
+    color: #385562;
+    text-decoration: none;
+}
+
+h3 {
+    margin-top: 1%;
+    margin-bottom: 3%;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+#header-nav {
+    height: inherit;
+    margin-bottom: 0;
+}
+
+#header-nav {
+    background-color: #999999;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-radius: 0;
+    border-left: 0;
+    border-right: 0;
+}
+
+#menu {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    float: right;
+    font-size: 2.6em;
+    background-color: #999999;
+    border-style: none;
+    border: 2px solid black;
+    padding: 6px 5px;
+    margin-right: 2%;
+    border-radius: 5px;
+}
+
+#menu:focus,
+#menu:hover {
+    color: #DCDCDC;
+    border-color: #DCDCDC;
+    outline: 0;
+}
+
+#collapsable-nav {
+    border: 0;
+    border-bottom: 0;
     padding: 0;
+}
+
+#collapsable-nav>ul {
+    border: 3px solid black;
+    border-bottom: 1px solid black;
+    margin: 0;
+}
+
+#collapsable-nav a,
+#collapsable-nav a:hover,
+#collapsable-nav a:focus {
+    color: #140500;
+}
+
+#collapsable-nav li {
+    width: 100%;
+    background-color: white;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 3px solid black;
+}
+
+#collapsable-nav li:nth-child(3) {
+    border-bottom: 0;
 }

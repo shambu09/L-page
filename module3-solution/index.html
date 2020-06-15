@@ -6,36 +6,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment Solution for Module 3</title>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <header id="header" class="container-fluid">
-        <div class="navbar-brand brand">Food, LLC</div>
+    <header>
+        <nav id="header-nav" class="navbar navbar-default">
+            <div id="brand" class="navbar-brand">
+                Food, LLC
+            </div>
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button id="menu" class="glyphicon glyphicon-menu-hamburger visible-xs" data-toggle="collapse" data-target="#collapsable-nav">
+                    </button>
+                </div>
+                <div id="collapsable-nav" class="collapse navbar-collapse">
+                    <ul id="nav-list" class="nav navbar-nav navbar-right visible-xs">
+                        <li>
+                            <a href="#chicken"> Chicken</a>
+                        </li>
+                        <li>
+                            <a href="#beef"> Beef</a>
+                        </li>
+                        <li>
+                            <a href="#sushi"> Sushi</a>
+                    </ul><!-- #nav-list -->
+                </div><!-- .collapse .navbar-collapse -->
+            </div><!-- .container -->
+        </nav><!-- #header-nav -->
     </header>
-    <h1 id="our-menu">Our Menu</h1>
+    <h1 id="our-menu" class="text-center">Our Menu</h1>
     <div id="main-content" class="container-fluid">
         <div id="main-tile" class="row">
-            <div class="col-lg-4 col-md-6 col-sm-12">
-                <div class="chicken">
-                    <span class="text-center">Chicken</span>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <div id="chicken">
+                    <h3 class="text-center">Chicken</h3>
                     <p>Duis esse magna incididunt eiusmod culpa dolore irure non sunt amet dolore magna commodo dolor est dolor tempor ut. Laborum incididunt dolore culpa incididunt et adipisicing et sunt ex dolor aliqua voluptate sint sunt ea ex consequat sed sit velit ex laboris non dolor aliqua sed culpa laborum veniam aliquip sunt fugiat et eu adipisicing ut eiusmod non tempor aliqua cillum aliqua occaecat irure nostrud nostrud adipisicing officia laboris irure quis in sit dolor nulla velit ea tempor magna non consequat do elit dolor sint occaecat consequat in quis velit reprehenderit consectetur dolor aliqua culpa non consequat laborum pariatur fugiat ut laborum eiusmod in cillum reprehenderit eu pariatur reprehenderit ut sed irure aliquip incididunt quis sunt occaecat minim officia magna veniam mollit reprehenderit nulla mollit dolore aliquip duis quis eu id ut dolore ut enim quis in consequat sunt quis in quis proident ea voluptate dolore incididunt sint ex eiusmod eiusmod ut laborum ut eiusmod cupidatat eu est sit cillum eu do est qui sunt commodo est magna nisi in voluptate in cupidatat qui eiusmod commodo mollit veniam non occaecat pariatur cillum proident occaecat esse consequat anim ut aute consequat magna veniam proident fugiat enim in elit officia laborum reprehenderit ut excepteur amet laboris dolore aute sunt tempor magna irure in officia in cupidatat voluptate quis sunt elit reprehenderit ullamco nisi quis dolor officia exercitation non dolor magna laboris deserunt eu veniam proident veniam proident pariatur laboris elit sint ea qui nisi ea. Lorem ipsum minim culpa amet consequat mollit ut occaecat fugiat nulla enim ut nostrud aliquip dolore et esse voluptate duis eu incididunt fugiat do consectetur dolor minim in laboris aliquip incididunt cillum non deserunt dolore in eiusmod in ex enim enim aute magna nostrud commodo fugiat irure id consequat qui ad culpa commodo officia eu in ea aute minim amet irure dolore occaecat id quis nisi anim ad sed magna sunt in nulla fugiat elit sint aute est aliquip aliquip consectetur aliquip incididunt commodo mollit dolor ut in ut eiusmod sint ex irure magna sed quis cupidatat fugiat nulla esse aliqua excepteur labore culpa nulla quis laboris non in in voluptate nisi id id et ad quis veniam eu ut ut ad nisi magna consequat eiusmod cupidatat consequat laboris dolore nulla sint in occaecat laborum amet excepteur dolor sint cillum id laborum cupidatat et anim eu consequat id cupidatat laborum consectetur culpa ad non dolor labore dolore pariatur pariatur do cupidatat minim in incididunt sunt irure do elit dolor in ad aliqua irure id reprehenderit deserunt ad deserunt.</p>
+                    <span class="text-center"><a href="#our-menu">Back to the Top</a></span>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6 col-sm-12">
-                <div class="beef">
-                    <span class="text-center">Beef</span>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <div id="beef">
+                    <h3 class="text-center">Beef</h3>
                     <p>In sunt esse enim in incididunt ut in adipisicing velit enim nisi dolor ut enim anim minim mollit proident laborum velit elit tempor irure. Ex dolore nulla in in cupidatat aliquip officia eiusmod pariatur esse laboris sed veniam consectetur do pariatur dolore fugiat dolor reprehenderit veniam ut laboris ad dolor qui exercitation ut magna cupidatat excepteur aute mollit tempor laboris sed reprehenderit commodo dolor in dolor exercitation eu mollit dolore enim exercitation aliquip velit irure consectetur duis aliquip eu eu aliqua reprehenderit laboris laboris laborum tempor reprehenderit dolore incididunt elit nisi quis est incididunt minim nostrud esse in ut ad eu esse amet qui officia do duis quis sunt ut magna eu exercitation officia voluptate et veniam commodo ut sed in amet enim est eiusmod adipisicing labore culpa tempor ullamco ut et deserunt quis ad est aute anim ea voluptate voluptate dolor qui ut magna duis reprehenderit dolore nostrud proident nulla laboris in ullamco amet cillum velit excepteur proident sint aliqua culpa labore in voluptate qui qui consequat minim ut magna reprehenderit nulla dolore veniam dolor consectetur ullamco mollit elit elit esse ea exercitation irure culpa.
-                    Nisi laborum consequat do laborum non laborum sunt cillum velit in magna nostrud do dolore duis in in consectetur anim magna ut dolore consequat excepteur cillum velit sunt laboris ad esse adipisicing sit dolor in do laboris officia nisi ex elit labore duis esse enim non tempor eu mollit pariatur cillum dolor et et cillum velit sit excepteur dolor minim dolor dolore cupidatat ea dolore dolore dolor officia ullamco ullamco tempor aliquip do magna in nisi sint aliquip ad culpa enim magna officia velit deserunt ut id eu nulla amet in dolor irure commodo duis velit quis tempor in mollit id in eiusmod laboris cillum quis excepteur enim laborum incididunt minim ad officia qui ut sed proident minim occaecat fugiat reprehenderit do enim sit ut qui esse in ullamco tempor duis fugiat.</p>
+                        Nisi laborum consequat do laborum non laborum sunt cillum velit in magna nostrud do dolore duis in in consectetur anim magna ut dolore consequat excepteur cillum velit sunt laboris ad esse adipisicing sit dolor in do laboris officia nisi ex elit labore duis esse enim non tempor eu mollit pariatur cillum dolor et et cillum velit sit excepteur dolor minim dolor dolore cupidatat ea dolore dolore dolor officia ullamco ullamco tempor aliquip do magna in nisi sint aliquip ad culpa enim magna officia velit deserunt ut id eu nulla amet in dolor irure commodo duis velit quis tempor in mollit id in eiusmod laboris cillum quis excepteur enim laborum incididunt minim ad officia qui ut sed proident minim occaecat fugiat reprehenderit do enim sit ut qui esse in ullamco tempor duis fugiat.</p>
+                    <span class="text-center"><a href="#our-menu">Back to the Top</a></span>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-12 col-sm-12">
-                <div class="sushi">
-                    <span class="text-center">Sushi</span>
+            <div class="col-md-4 col-sm-12 col-xs-12">
+                <div id="sushi">
+                    <h3 class="text-center">Sushi</h3>
                     <p>Aute deserunt elit mollit aute sit anim ea incididunt culpa cupidatat enim esse ut est dolor sunt commodo enim sunt labore. Dolore in ullamco ad excepteur ea exercitation consectetur ullamco velit pariatur duis in ad quis nisi fugiat voluptate elit culpa pariatur minim duis commodo pariatur pariatur ea nisi amet eiusmod amet dolore dolore in labore dolore tempor id dolore amet consectetur mollit mollit incididunt laboris nisi tempor quis pariatur dolor minim mollit fugiat officia mollit commodo qui occaecat tempor dolor aliquip sunt est veniam laboris aute in excepteur sed in adipisicing magna ut adipisicing eiusmod officia dolore sed cupidatat duis id sunt sint sed aliquip duis magna qui ea dolore excepteur quis amet labore esse aliquip nulla ut esse deserunt mollit nostrud magna occaecat non labore id ea cillum aliqua dolor anim laboris sed nisi amet elit sint esse do occaecat esse consectetur est id in anim exercitation in in nostrud nulla id dolore adipisicing ex dolor aute sed velit id adipisicing elit dolor in et cillum eiusmod culpa ut amet do in esse ad aute cillum duis in ad proident eiusmod commodo ex laborum et ad in anim laboris magna voluptate cupidatat irure sit magna cillum id sed dolore minim duis laboris veniam deserunt exercitation veniam sit dolore duis exercitation non officia aliquip veniam culpa ut nisi incididunt ut tempor deserunt adipisicing quis occaecat eiusmod esse quis quis anim esse labore culpa deserunt in sit tempor dolor magna veniam elit exercitation ea nulla aute dolore sit ex aute velit consectetur anim in nisi qui magna sit magna consectetur mollit quis veniam laboris qui nulla irure est non esse. Est aliquip dolore aliquip do irure exercitation irure qui esse irure ut do irure velit voluptate in incididunt consectetur reprehenderit ad dolor in veniam deserunt ut sunt dolore ut aliqua aute cupidatat laborum dolor dolor dolore aliquip magna culpa consectetur aliqua cillum officia fugiat nisi dolor do esse pariatur dolore exercitation laborum do voluptate ut tempor aliqua in fugiat in dolore cillum commodo consectetur tempor ut in dolor voluptate dolor ut veniam sint sed fugiat anim in sunt adipisicing incididunt mollit ex cillum deserunt sint dolor ad do officia exercitation laborum officia sunt ut aute aliquip commodo ut sint esse dolor deserunt anim sunt dolore irure exercitation proident magna dolore qui laborum pariatur ullamco ut nisi adipisicing laborum duis ad ad id ad mollit aliqua excepteur eiusmod proident sit elit eiusmod aliquip adipisicing ex exercitation incididunt in qui reprehenderit eu sed minim consequat tempor excepteur culpa aute id laborum dolore veniam dolor mollit ex incididunt do eu velit sint cupidatat culpa in eiusmod amet cupidatat et tempor ut culpa nulla in officia labore proident aute incididunt quis voluptate sint consectetur dolor mollit ea occaecat proident et sit deserunt proident ullamco non nisi nisi officia ut laboris eu fugiat veniam proident voluptate veniam incididunt aliquip dolor do nisi sint laboris amet ut sit non sed aliqua irure laboris adipisicing nulla dolore reprehenderit eu tempor labore do voluptate do amet reprehenderit elit dolor enim aute dolore adipisicing nostrud ullamco deserunt dolor consequat ea aute in non ut laborum consequat velit cupidatat magna mollit non ut nisi ea culpa sunt minim.</p>
+                    <span class="text-center"><a href="#our-menu">Back to the Top</a></span>
                 </div>
             </div>
         </div>
