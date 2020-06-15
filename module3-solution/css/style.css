@@ -111,14 +111,19 @@ h3 {
 
 #collapsable-nav>ul {
     border: 3px solid black;
-    border-bottom: 1px solid black;
+    border-top: 3.5px solid black;
+    border-bottom: 1.5px solid black;
     margin: 0;
 }
 
-#collapsable-nav a,
-#collapsable-nav a:hover,
-#collapsable-nav a:focus {
+#collapsable-nav>ul a {
     color: #140500;
+    font-weight: bold;
+}
+
+#collapsable-nav>ul a:hover {
+    color: #454545;
+    font-weight: bold;
 }
 
 #collapsable-nav li {
